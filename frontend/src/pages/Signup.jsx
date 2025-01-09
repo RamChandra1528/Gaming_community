@@ -30,7 +30,7 @@ function Signup() {
             return handleError('Name, email, and password are required');
         }
         try {
-            const url = `https://gaming-community-pi.vercel.app/auth/signup`; 
+            const url = `https://gaming-community-bkd.vercel.app/auth/signup`; 
             const response = await fetch(url, {
                 method: "POST",
                 headers: {

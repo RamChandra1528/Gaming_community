@@ -26,7 +26,7 @@ function Login() {
             return handleError('Email and password are required');
         }
         try {
-            const url = `https://gaming-community-pi.vercel.app/auth/login`; // Use HTTP if HTTPS is not set up
+            const url = `https://gaming-community-bkd.vercel.app/auth/login`; // Use HTTP if HTTPS is not set up
             const response = await fetch(url, {
                 method: "POST",
                 headers: {
